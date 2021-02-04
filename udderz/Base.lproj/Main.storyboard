@@ -25,43 +25,52 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VN3-kY-Osf" userLabel="Top View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="293.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1o-LK-trK">
-                                                <rect key="frame" x="20" y="20" width="126" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1o-LK-trK">
+                                                <rect key="frame" x="144" y="122.5" width="126" height="48"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="x1o-LK-trK" firstAttribute="centerX" secondItem="VN3-kY-Osf" secondAttribute="centerX" id="bYe-xv-bEb"/>
+                                            <constraint firstItem="x1o-LK-trK" firstAttribute="centerY" secondItem="VN3-kY-Osf" secondAttribute="centerY" id="rQ5-DJ-VlO"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qFP-Ng-2W7" userLabel="Middle View">
                                         <rect key="frame" x="0.0" y="301.5" width="414" height="293"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-zY-9df">
-                                                <rect key="frame" x="155" y="88" width="97" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please Enter Address Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-4X-OZs">
-                                                <rect key="frame" x="9" y="38" width="396" height="42"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Enter Address Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-4X-OZs">
+                                                <rect key="frame" x="9" y="125.5" width="396" height="42"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-zY-9df">
+                                                <rect key="frame" x="146.5" y="197.5" width="121" height="43"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="43" id="EAF-nq-4JQ"/>
+                                                    <constraint firstAttribute="width" constant="121" id="J3f-Dq-fgk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="FE8-zY-9df" firstAttribute="top" secondItem="dnn-4X-OZs" secondAttribute="bottom" constant="30" id="1ZM-kR-pZM"/>
+                                            <constraint firstItem="dnn-4X-OZs" firstAttribute="centerY" secondItem="qFP-Ng-2W7" secondAttribute="centerY" id="5Lm-Mk-2dC"/>
+                                            <constraint firstItem="dnn-4X-OZs" firstAttribute="centerX" secondItem="qFP-Ng-2W7" secondAttribute="centerX" id="X6C-2k-Lvy"/>
+                                            <constraint firstItem="FE8-zY-9df" firstAttribute="centerX" secondItem="dnn-4X-OZs" secondAttribute="centerX" id="qWe-DT-lH8"/>
+                                            <constraint firstAttribute="bottom" secondItem="FE8-zY-9df" secondAttribute="bottom" constant="52.5" id="yNP-uf-tEA"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZS-WQ-dqs" userLabel="Bottom View">
                                         <rect key="frame" x="0.0" y="602.5" width="414" height="293.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Su-CE-nFf">
-                                                <rect key="frame" x="0.0" y="8" width="393" height="47"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Su-CE-nFf">
+                                                <rect key="frame" x="10.5" y="123.5" width="393" height="47"/>
                                                 <color key="backgroundColor" red="0.89019607840000003" green="0.59999999999999998" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <state key="normal" title="Click Here to Get Milk Delivered">
@@ -70,7 +79,10 @@
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="4Su-CE-nFf" firstAttribute="centerY" secondItem="MZS-WQ-dqs" secondAttribute="centerY" id="CVD-gy-cF6"/>
+                                            <constraint firstItem="4Su-CE-nFf" firstAttribute="centerX" secondItem="MZS-WQ-dqs" secondAttribute="centerX" id="quY-Et-bZe"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
