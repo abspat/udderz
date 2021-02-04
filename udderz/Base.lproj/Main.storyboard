@@ -77,11 +77,14 @@
                                                     <color key="titleColor" red="0.76078431369999999" green="0.28627450980000002" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" systemColor="systemTealColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzL-hH-nbk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="4Su-CE-nFf" firstAttribute="centerY" secondItem="MZS-WQ-dqs" secondAttribute="centerY" id="CVD-gy-cF6"/>
-                                            <constraint firstItem="4Su-CE-nFf" firstAttribute="centerX" secondItem="MZS-WQ-dqs" secondAttribute="centerX" id="quY-Et-bZe"/>
+                                            <constraint firstItem="4Su-CE-nFf" firstAttribute="centerX" secondItem="MZS-WQ-dqs" secondAttribute="centerX" id="1Ug-JS-lZD"/>
+                                            <constraint firstItem="4Su-CE-nFf" firstAttribute="centerY" secondItem="MZS-WQ-dqs" secondAttribute="centerY" id="MvS-sf-IkA"/>
                                         </constraints>
                                     </view>
                                 </subviews>

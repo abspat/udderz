@@ -13,6 +13,7 @@
 		8158C56125CB9A9B0097B25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8158C55F25CB9A9B0097B25E /* Main.storyboard */; };
 		8158C56325CB9A9F0097B25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8158C56225CB9A9F0097B25E /* Assets.xcassets */; };
 		8158C56625CB9A9F0097B25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8158C56425CB9A9F0097B25E /* LaunchScreen.storyboard */; };
+		8158C57425CBB4220097B25E /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8158C57325CBB4220097B25E /* cow.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8158C56225CB9A9F0097B25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8158C56525CB9A9F0097B25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8158C56725CB9A9F0097B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8158C57325CBB4220097B25E /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8158C55F25CB9A9B0097B25E /* Main.storyboard */,
 				8158C56225CB9A9F0097B25E /* Assets.xcassets */,
 				8158C56425CB9A9F0097B25E /* LaunchScreen.storyboard */,
+				8158C57325CBB4220097B25E /* cow.mp3 */,
 				8158C56725CB9A9F0097B25E /* Info.plist */,
 			);
 			path = udderz;
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8158C57425CBB4220097B25E /* cow.mp3 in Resources */,
 				8158C56625CB9A9F0097B25E /* LaunchScreen.storyboard in Resources */,
 				8158C56325CB9A9F0097B25E /* Assets.xcassets in Resources */,
 				8158C56125CB9A9B0097B25E /* Main.storyboard in Resources */,
